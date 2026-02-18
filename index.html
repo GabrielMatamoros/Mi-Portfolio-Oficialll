@@ -6,7 +6,7 @@
     <title>Porfolio</title>
     <link rel="stylesheet" href="styles.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
->
+
 </head>
 <body>
     <header class="header">
@@ -15,16 +15,16 @@
         <div class="header__inicials-container">
              <div class="header__initials">G<span>M</span></div>
         </div>
-        
+
         <nav class="header__nav">
             <ul class="header__nav-list">
                 <li class="header__nav-items"><a href="#profile" onclick="document.getElementById('open-menu').checked=false">About</a></li>
                 <li class="header__nav-items"><a href="#projects" onclick="document.getElementById('open-menu').checked=false">Projects</a></li>
                 <li class="header__nav-items"><a href="#contact" onclick="document.getElementById('open-menu').checked=false">Contact</a></li>
             </ul>
-        </nav> 
-    </header>  
-    
+        </nav>
+    </header>
+
     <main class="profile" id="profile">
         <div class="profile__wrapper">
             <div class="profile__img-container">
@@ -34,10 +34,28 @@
                 <div class="profile__data">
                     <div class="profile__description">
                         <h1>I'm Gabriel Matamoros</h1>
-                        <p>I am an Applied Information Technology student at McFatter College with a strong interest in software development, desktop applications, SQL Server, and web design. I am also building solid skills in networking, hardware, operating systems, and IT support. As a bilingual English–Spanish speaker, I enjoy learning, solving technical problems, and growing as an IT professional.
+                        <p>                  I am an Applied Information Technology student at McFatter College with a strong interest in software development, desktop applications, SQL Server, and web design. I am also building solid skills in networking, hardware, operating systems, and IT support. As a bilingual English–Spanish speaker, I enjoy learning, solving technical problems, and growing as an IT professional.
                         </p>
                     </div>
+
                     <div class="profile__skill-container">
+                        <h2 class="skills-title">SKILLS</h2> 
+                        
+                        <ul class="skills-list">
+                            <li><strong>C#</strong> — OOP, WinForms, .NET Framework, .NET Core</li>
+                            <li><strong>SQL Server</strong> — Queries, Joins, Stored Procedures, SSMS</li>
+                            <li><strong>ASP.NET WebForms</strong> — Controls, Events, State Management</li>
+                            <li><strong>HTML5 & CSS3</strong> — Layouts, Forms, Responsive Basics</li>
+                            <li><strong>Git & GitHub</strong> — Version control, branching, repositories</li>
+                            <li><strong>PC Hardware</strong> — Installation, diagnostics, component replacement</li>
+                            <li><strong>Operating Systems</strong> — Windows configuration, user accounts, permissions</li>
+                            <li><strong>Networking Fundamentals</strong> — IP addressing, DHCP, DNS, NAT, SOHO routers</li>
+                            <li><strong>Linux Basics</strong> — Terminal navigation, essential commands</li>
+                            <li><strong>IT Support</strong> — Troubleshooting, ticketing concepts, customer service</li>
+                        </ul>
+                    </div>
+
+                   <!-- <div class="profile__skill-container">
                         <h2>SKILLS</h2>
                         <ul>
                             <li class="profile__skill">
@@ -46,77 +64,77 @@
                                 </div>
                                 <span class="profile__skill-name">HTML</span>
                             </li>
-                            
+
                             <li class="profile__skill">
                                 <div class="load-bar">
                                     <div class="load-bar__bar bar--50">50%</div>
                                 </div>
                                 <span class="profile__skill-name">CSS</span>
                             </li>
-                           
+
                             <li class="profile__skill">
                                 <div class="load-bar">
                                     <div class="load-bar__bar bar--40">40%</div>
                                 </div>
                                 <span class="profile__skill-name">C#</span>
                             </li>
-                           
+
                             <li class="profile__skill">
                                 <div class="load-bar">
                                     <div class="load-bar__bar bar--80">80%</div>
                                 </div>
                                 <span class="profile__skill-name">SQL</span>
                             </li>
-                            
+
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         </main>
-        
+
         <section class="portfolio" id="projects">
             <h2 class="portfolio__title">PROJECTS SECTION</h2>
 
             <div class="portfolio__project-container">
-                
+
                 <a class="portfolio__project"
                    href="https://github.com/GabrielMatamoros/DispositivosApp"
                    target="_blank">
                     <h2 class="portfolio-project__name"></h2>
-                    
+
                     <h3>Device Managment App</h3>
-                    <p>Desktop application built in C# (WinForms) with full CRUD functionality and SQL Server database integration for device management.</p>    
+                    <p>Desktop application built in C# (WinForms) with full CRUD functionality and SQL Server database integration for device management.</p>
                 </a>
-               
+
                 <a class="portfolio__project"
                    href="https://github.com/GabrielMatamoros/PokemonApp"
                    target="_blank">
                     <h2 class="portfolio-project__name"></h2>
-                    
+
                     <h3>Pokedex App</h3>
-                    <p>Desktop application developed in C# (WinForms) featuring CRUD operations and filtering capabilities, fully integrated with a SQL Server database to manage Pokémon data.</p>    
+                    <p>Desktop application developed in C# (WinForms) featuring CRUD operations and filtering capabilities, fully integrated with a SQL Server database to manage Pokémon data.</p>
                 </a>
 
                   <a class="portfolio__project"
                    href="https://github.com/GabrielMatamoros/PokemonApp"
                    target="_blank">
                     <h2 class="portfolio-project__name"></h2>
-                    
+
                     <h3>CD'S App</h3>
-                    <p>Desktop application built in C# (WinForms) with complete CRUD operations and direct interaction with a SQL Server database managed through SQL Server Management Studio.</p>    
+                    <p>Desktop application built in C# (WinForms) with complete CRUD operations and direct interaction with a SQL Server database managed through SQL Server Management Studio.</p>
                 </a>
-               
-              
-               
+
+
+
              <!--  <div class="portfolio__project">
                     <h2 class="portfolio-project__name">PROJECT</h2>
                 </div>
-                
+
                 <div class="portfolio__project">
                     <h2 class="portfolio-project__name">PROJECT</h2>
                 </div>
-               
+
                 <div class="portfolio__project">
                     <h2 class="portfolio-project__name">POJECT</h2>
                 </div>-->
@@ -154,7 +172,7 @@
             </div>
         </form>
        </section>
-      
+
       <footer class="footer">
        <p><p>Gabriel Matamoros — IT Support & Developer</p></p>
 
@@ -172,6 +190,6 @@
         </a>
     </div>
 </footer>
-      
+
 </body>
 </html>

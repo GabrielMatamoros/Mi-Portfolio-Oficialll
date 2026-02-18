@@ -146,10 +146,8 @@ section{
 h1{
     color: #26a;
 }
-.profile__skill-container h2{
-    color: #26a;
-}
-.profile__skill{
+
+/*.profile__skill{
     list-style: none;
     display: flex;
     margin: 10px;
@@ -193,7 +191,47 @@ h1{
 }
 .bar--90{
     width: 90%;
+}*/
+.skills-title h2{
+    color: #26a;
+    margin-bottom: 25px;
 }
+.profile__skill-container {
+    max-width: 500px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.skills-title {
+    color: #26a;
+    font-size: 1.8rem;
+    padding: 12px !important;
+}
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+    padding-left: 14px;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.skills-list li::before {
+    content: "•";
+    color: #26a;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 /*-------------------PROFILE QUERIES---------------------*/
 
 @container profile (min-width: 720px){
@@ -201,7 +239,8 @@ h1{
         flex-direction: row;
         padding: 20px;
         background-color: transparent;
-        height: 90vh;
+        min-height: 90vh;
+        height: auto;
         margin: auto;
        
     } 
